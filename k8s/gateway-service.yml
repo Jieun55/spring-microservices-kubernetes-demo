@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: kubepay.gateway:latest
+          image: 192.168.2.73:80/k8s/gate:1
           imagePullPolicy: IfNotPresent
           env:
             - name: AUTH_URL
