@@ -9,4 +9,4 @@ data:
   BILLING_URL: "http://gateway/billing/test"
   STANDALONE: "false"
   TRACING: "true"
-  ZIPKIN_ENDPOINT: "http://zipkin:9411/api/v2/spans"
+  ZIPKIN_ENDPOINT: "http://zipkin-service:9411/api/v2/spans"
